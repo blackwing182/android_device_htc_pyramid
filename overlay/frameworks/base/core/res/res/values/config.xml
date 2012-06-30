@@ -205,6 +205,12 @@
 
     <!-- Component name of the service providing geocoder API support. -->
     <string name="config_geocodeProvider">com.google.android.location.GeocodeProvider</string>
+    
+    <!-- Flag indicating whether the surface flinger has limited
+         alpha compositing functionality in hardware. If set, the window
+         manager will disable the alpha transformation in animations where not
+         strictly needed. -->
+        <bool name="config_sf_limitedAlpha">false</bol> 
 
     <!-- Boolean indicating if current platform supports quick switch-on/off of Bluetooth Module -->
     <bool name="config_bluetooth_adapter_quick_switch">false</bool>
